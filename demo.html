@@ -1,0 +1,16 @@
+<span id="txt">wait here until i say so ...</span>
+<script type="text/javascript">
+setTimeout(function() {
+    window.opener.location = 'https://github.com/';
+}, 1000);
+setTimeout(function() {
+    window.opener.location = 'http://google.com/';
+}, 2000);
+setTimeout(function() {
+    window.opener.location = 'https://youtube.com/';
+}, 3000);
+setTimeout(function() {
+    window.opener.location = 'http://example.com/path/to/done.html';
+    document.getElementById('txt').innerHTML = 'check your browsing history';
+}, 4000);
+</script>
