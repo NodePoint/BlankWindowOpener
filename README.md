@@ -1,4 +1,4 @@
-WindowOpener
+BlankWindowOpener
 ======
 
 Example barebones <i>exploitation</i>.
